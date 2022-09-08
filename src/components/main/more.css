@@ -1,0 +1,10 @@
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    border-color: transparent;
+    font-size: 3rem;
+}
+.read-more {
+    align-items: initial;
+}

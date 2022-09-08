@@ -1,0 +1,78 @@
+.main {
+    margin: 100px;
+    height: 100vh;
+    background-image: url('../img/main.jpg');
+    background-size: 40vw 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 0;
+    overflow:hidden;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 92%,
+        97% 100%,
+        0% 100%);    
+}
+.main:after {
+    content: "";
+    position:absolute;
+    right: 870px;
+    bottom: 1020px;
+    width: 100px;
+    height: 100px;
+    transform:rotate(45deg);
+    background-color:rgb(6, 6, 6); /* to see where it is */
+  }
+
+.background {
+    position: absolute;
+    margin: 3rem;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    color:rgba(210, 216, 142, 10%);
+    transform: translate(-60px, -5%);
+    font-size: 200px;
+    z-index: -1;   
+    border:100px;
+    border-color: azure;
+}
+.ourClasses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.more  {
+    display: flex;
+}
+.more div {
+    margin: 30px;
+}
+.more div img {
+    height: 450px;
+    width: 350px;
+}
+.more button {
+    
+}
+.smallPic {
+    display: flex;
+    justify-content: space-around;
+}
+.smallPic div {
+    width: 15vw;
+}
+.smallPic div img {
+    height: 300px;
+    width: 200px;
+}

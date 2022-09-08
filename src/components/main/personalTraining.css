@@ -1,0 +1,35 @@
+.personalTraining {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px;
+}
+.personalTraining:before {
+    content: "";
+    position:absolute;
+    right: 1970px;
+    bottom: -1730px;
+    width: 100px;
+    height: 100px;
+    transform:rotate(45deg);
+    background-color:rgb(6,6,6); /* to see where it is */
+    z-index: 2;
+  }
+.personalTraining:after {
+    content: "";
+    position:absolute;
+    right: 1050px;
+    bottom: -2800px;
+    width: 100px;
+    height: 100px;
+    transform:rotate(45deg);
+    background-color:rgb(6, 6, 6); /* to see where it is */
+    z-index: 2;
+  }
+.personalTraining img {
+    height: 100vh;
+    width: 40vw;
+}
+.pertr {
+    padding-left: 50px;
+}

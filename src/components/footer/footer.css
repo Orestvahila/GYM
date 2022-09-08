@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer div img {
+    height: 100px;
+}
+.footer div p {
+    width: 40%;
+}
+.footer div .logo img {
+    height: 50px;
+}
+.footer .menu {
+    display: flex;
+    list-style: none;
+}
+.footer .menu h5{
+    padding: 20px;
+}
+.footer .menu li ul{
+    padding: 0;
+}
+
+.footer .form {
+    display: flex;
+    flex-direction: column;
+}
+.signature {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}

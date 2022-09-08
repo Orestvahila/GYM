@@ -1,0 +1,32 @@
+.top {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.head {
+    display: flex;
+    justify-content:space-between;
+}
+.head div img {
+    height: 100px;
+}
+.head div ul {
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    margin: 30px;
+}
+.head div ul li {   
+    padding-right: 100px;
+}
+.head .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head .logo img {
+    height: 50px;
+}
