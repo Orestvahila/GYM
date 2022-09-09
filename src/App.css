@@ -7,7 +7,43 @@
 .yellowText {
     color: yellowgreen;
 }
-input[type=button] {
+li {
+    list-style: none;
+    padding: 10px;
+}
+.greyBtn {
+    position: relative;
+  }
+  
+  .greyBtn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .greyBtn:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  .greyBtn input {
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+  .greyBtn input:hover{
+    color: white;
+  }
+.yellowBtn {
     width: 200px;
     height: 50px;
     background-color: yellowgreen;
@@ -15,8 +51,12 @@ input[type=button] {
     font-size: 20px;
     font-weight: bolder;
 }
-input:hover {
+.yellowBtn:hover {
     background-color: rgb(227, 235, 235);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+input {
     cursor: pointer;
 }
 h2 {
@@ -25,7 +65,11 @@ h2 {
 h4 {
     font-size: 50px;
 }
+h5{
+    font-size: 30px;
+}
 p {
     font-size: 25px;
     padding-bottom: 70px;
+    color: grey;
 }

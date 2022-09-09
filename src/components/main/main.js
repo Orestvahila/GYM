@@ -22,7 +22,7 @@ function Main (){
                 <h5 className="background">FITNES</h5>
                 <h2>GET FIT AND<br/>FEEL <span className="yellowText">GREAT!</span></h2>
                 <p>Our profesional instructors will help you stay active and healthy.</p>
-                <input type={"button"} value={'JOIN NOW'}></input>
+                <input className="yellowBtn" type={"button"} value={'JOIN NOW'}></input>
             </div>
             <div className="ourClasses">
                 <h5 className="background">CLASSES</h5>
@@ -68,7 +68,7 @@ function Main (){
                 </div>
             </div>
             <div className="ourClasses">
-                <input type={"button"} value={'ALL CLASSES'}></input>
+                <input className="yellowBtn" type={"button"} value={'ALL CLASSES'}></input>
             </div>
             <PersonalTraining />
             <div className="smallPic">

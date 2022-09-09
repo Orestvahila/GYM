@@ -16,7 +16,7 @@ function PersonalTraining () {
                 individual skills and achieve fitness goals. Our personal 
                 trainers are dedicated to providing you with the best 
                 fitness experience possible.</p>
-                <input type={"button"} value='EXPLORE TRAINING'></input>
+                <input className="yellowBtn" type={"button"} value='EXPLORE TRAINING'></input>
             </div>
         </div>
     )

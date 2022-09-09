@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../img/logo.jpg'
+import Logo from '../img/GymLogo.png'
 import facebook from '../img/facebook.png'
 import twitter from '../img/twitter.png'
 import instagram from '../img/instagram.png'
@@ -25,33 +25,33 @@ function Footer (){
             <div className="menu">
                 <h5>Navigation
                     <li>
-                        <ul>About Us</ul>
-                        <ul>Classes</ul>
-                        <ul>Personal training</ul>
-                        <ul>Locations</ul>
+                        <ul className="greyBtn"><input type='button' value ='About Us' ></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Classes'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Personal training'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Locations'></input></ul>
                     </li>
                 </h5>
                 <h5>Information
                     <li>
-                        <ul>About Us</ul>
-                        <ul>Classes</ul>
-                        <ul>Personal training</ul>
-                        <ul>Locations</ul>
+                        <ul className="greyBtn"><input type='button' value ='About Us'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Classes'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Personal training'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Locations'></input></ul>
                     </li>
                 </h5>
                 <h5>Clients
                     <li>
-                        <ul>About Us</ul>
-                        <ul>Classes</ul>
-                        <ul>Personal training</ul>
-                        <ul>Locations</ul>
+                        <ul className="greyBtn"><input type='button' value ='About Us'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Classes'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Personal training'></input></ul>
+                        <ul className="greyBtn"><input type='button' value ='Locations'></input></ul>
                     </li>  
                 </h5>                              
             </div>
             <div className="form">
                 <p>Subscribe to get the latest news from us:</p>
                 <input type={"email"}></input>
-                <input type={"button"} value={"Subscribe"}></input>
+                <input className="yellowBtn" type={"button"} value={"Subscribe"}></input>
             </div>
         </div>
         <div className="signature">

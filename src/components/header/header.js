@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-import Logo from '../img/logo.jpg'
+import Logo from '../img/GymLogo.png'
 import facebook from '../img/facebook.png'
 import twitter from '../img/twitter.png'
 import instagram from '../img/instagram.png'
@@ -19,12 +19,12 @@ function Header () {
                     <img src={Logo} alt="logo" />
                 </div>
                 <div>
-                    <ul>
-                        <li><input type='text' value='About Us' /></li>
-                        <li><input type='text' value='Classes' /></li>
-                        <li><input type='text' value='Personal training' /></li>
-                        <li><input type='text' value='Locations' /></li>
-                    </ul>
+                    <li>
+                        <ul className="greyBtn"><input type='button' value='About Us' /></ul>
+                        <ul className="greyBtn"><input type='button' value='Classes' /></ul>
+                        <ul className="greyBtn"><input type='button' value='Personal training' /></ul>
+                        <ul className="greyBtn"><input type='button' value='Locations' /></ul>
+                    </li>
                 </div>
                 <div className="logo">
                 <img src={facebook} alt="logo" />
