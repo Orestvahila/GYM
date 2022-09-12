@@ -11,7 +11,7 @@ function Footer (){
     return (
     <div>
         <div className="footer">
-            <div>
+            <div className="logoBlock">
                 <img src={Logo} alt="logo" />
                 <p>We are a fitness club in Brooklyn 
                 with modern gym machines and group programs</p>
@@ -50,7 +50,7 @@ function Footer (){
             </div>
             <div className="form">
                 <p>Subscribe to get the latest news from us:</p>
-                <input type={"email"}></input>
+                <input type={"email"} placeholder='Email*'></input>
                 <input className="yellowBtn" type={"button"} value={"Subscribe"}></input>
             </div>
         </div>
