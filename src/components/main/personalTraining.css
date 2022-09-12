@@ -8,22 +8,22 @@
     content: "";
     position:absolute;
     right: 1970px;
-    bottom: -1730px;
+    bottom: -1980px;
     width: 100px;
     height: 100px;
     transform:rotate(45deg);
-    background-color:rgb(6,6,6); /* to see where it is */
+    background-color:rgb(0, 0, 0); /* to see where it is */
     z-index: 2;
   }
 .personalTraining:after {
     content: "";
     position:absolute;
     right: 1050px;
-    bottom: -2800px;
+    bottom: -3050px;
     width: 100px;
     height: 100px;
     transform:rotate(45deg);
-    background-color:rgb(6, 6, 6); /* to see where it is */
+    background-color:rgb(0, 0, 0); /* to see where it is */
     z-index: 2;
   }
 .personalTraining img {

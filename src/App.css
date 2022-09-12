@@ -44,12 +44,18 @@ li {
     color: white;
   }
 .yellowBtn {
-    width: 200px;
+    min-width: 200px;
+    padding-left: 35px;
+    width: auto;
     height: 50px;
     background-color: yellowgreen;
     border-color: yellowgreen;
     font-size: 20px;
     font-weight: bolder;
+    background-image: url(./components/img/backet.png) ;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px;
 }
 .yellowBtn:hover {
     background-color: rgb(227, 235, 235);

@@ -13,19 +13,19 @@
     clip-path: polygon(
         0% 0%,
         100% 0%,
-        100% 92%,
-        97% 100%,
+        100% 88%,
+        92% 100%,
         0% 100%);    
 }
 .main:after {
     content: "";
     position:absolute;
     right: 870px;
-    bottom: 1020px;
+    bottom: 1093px;
     width: 100px;
     height: 100px;
     transform:rotate(45deg);
-    background-color:rgb(6, 6, 6); /* to see where it is */
+    background-color:rgb(0, 0, 0); /* to see where it is */
   }
 
 .background {
@@ -40,6 +40,19 @@
     z-index: 2;   
     border:100px;
     border-color: azure;
+}
+.backgroundTwo {
+        position: absolute;
+        margin: 3rem;
+        top: 1750px;
+        left: 350px;
+        bottom: 0;
+        color:rgba(210, 216, 142, 10%);
+        transform: translate(-60px, -5%);
+        font-size: 350px;
+        z-index: 2;   
+        border:100px;
+        border-color: azure;
 }
 .ourClasses {
     display: flex;
@@ -63,9 +76,7 @@
     height: 450px;
     width: 350px;
 }
-.more button {
-    
-}
+
 .smallPic {
     display: flex;
     justify-content: space-around;
