@@ -44,6 +44,10 @@
     background-color: grey;
     font-size: 30px;
 }
+.form input[type='email']:focus{
+    background-color: white;
+    outline: 4px solid yellowgreen;
+}
 .signature {
     display: flex;
     justify-content: space-between;

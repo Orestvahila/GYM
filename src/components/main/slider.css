@@ -31,7 +31,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #f1f1f1;
+    background: grey;
     border: 1px solid rgba(34, 34, 34, 0.287);
     position: absolute;
     display: flex;
@@ -68,10 +68,10 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 3px solid #f1f1f1;
+    border: 3px solid grey;
     margin: 0 5px;
-    background: #f1f1f1;
+    background: black;
   }
   .dot.active {
-    background: rgb(32, 32, 32);
+    background: grey;
   }
