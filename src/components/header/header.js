@@ -27,10 +27,12 @@ function Header () {
                     </li>
                 </div>
                 <div className="logo">
-                <img src={facebook} alt="logo" />
-                <img src={instagram} alt="logo" />
-                <img src={twitter} alt="logo" />
-                <img src={youtube} alt="logo" />
+                    <li>
+                    <ul><input type='image' src={facebook} alt="logo" /></ul>
+                    <ul><input type='image' src={instagram} alt="logo" /></ul>
+                    <ul><input type='image' src={twitter} alt="logo" /></ul>
+                    <ul><input type='image' src={youtube} alt="logo" /></ul>
+                    </li>
                 </div>
             </div>
         </div>

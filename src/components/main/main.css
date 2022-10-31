@@ -67,9 +67,6 @@
     margin-left: 10rem;
     margin-right: 10rem;
 }
-.more  {
-    display: flex;
-}
 .more div {
     margin: 30px;
 }
@@ -77,7 +74,9 @@
     height: 450px;
     width: 350px;
 }
-
+.more p {
+    max-width: 250px;
+}
 .smallPic {
     display: flex;
     justify-content: space-around;

@@ -18,16 +18,24 @@
     display: flex;
     justify-content:space-between;
     font-size: 30px;
-    margin: 30px;
+    margin-top: 30px;
 }
-.head div li ul {   
+.head div li ul input{   
     padding-right: 100px;
+    font-size: 40px;
 }
 .head .logo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.head .logo img {
+.head .logo li ul input{
     height: 50px;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.head .logo li ul input:hover{
+    background-color: rgb(154, 205, 50, 0.5);
+    border-radius: 50px;
 }
